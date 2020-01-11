@@ -1,0 +1,22 @@
+
+{% extends 'feedback_base.html' %}
+
+{% block body %}
+        <div align="right">
+         <a href="{% url 'feedback:download' %}" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-download-alt"></span> Download
+        </a>
+            </div>
+
+{%  for comment in comments  %}
+ <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2" href="#">{{ comment.manager.name }}</a>
+          <small class="text-muted">{{ comment.date_posted | date:"F d,Y"}}</small>
+        </div>
+        <p class="article-content">{{ comment.comment }}</p>
+      </div>
+    </article>
+{% endfor %}
+{% endblock %}
