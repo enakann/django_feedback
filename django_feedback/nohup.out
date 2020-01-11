@@ -1,0 +1,49 @@
+[11/Jan/2020 21:49:08] "GET /feedback/ HTTP/1.1" 200 4326
+[11/Jan/2020 23:14:42] "GET /feedback/ HTTP/1.1" 200 4326
+[11/Jan/2020 23:14:42] "GET /static/js/main.js HTTP/1.1" 304 0
+[11/Jan/2020 23:14:44] "GET /feedback/list/ HTTP/1.1" 302 0
+[11/Jan/2020 23:14:44] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[11/Jan/2020 23:15:51] "GET /feedback/ HTTP/1.1" 200 4326
+[11/Jan/2020 23:15:54] "GET /feedback/list/ HTTP/1.1" 302 0
+[11/Jan/2020 23:15:55] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[11/Jan/2020 23:16:13] "GET /feedback/ HTTP/1.1" 200 4326
+[11/Jan/2020 23:16:15] "GET /feedback/list/ HTTP/1.1" 302 0
+[11/Jan/2020 23:16:15] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[11/Jan/2020 23:16:23] "POST /feedback/login/?next=/feedback/list/ HTTP/1.1" 302 0
+[11/Jan/2020 23:16:24] "GET /feedback/list/ HTTP/1.1" 200 11343
+[11/Jan/2020 23:16:30] "GET /feedback/download/ HTTP/1.1" 200 6125
+[11/Jan/2020 23:16:37] "GET /feedback/ HTTP/1.1" 200 4326
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 11, 2020 - 21:49:04
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Test>, <Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: ccxcxcxc>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: dsdsdsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: kkkkkkkkkkkkkkkkkkkkkkkkk>, <Employee: xsxsdsdsdsd>, '...(remaining elements truncated)...']>, 'comments': <QuerySet [<Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: xsxsdsdsdsd>, <Employee: sssdsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: jkjklklkkllklklkklkk>, <Employee: dsdslslllssdsd>, '...(remaining elements truncated)...']>, 'view': <feedback.views.CommentListView object at 0x7f4e653b6978>}
+[['Manager_name', 'Date_posted', 'Comment'], ['AmitBhalotia', '2020-01-11 06:03:00', 'Test'], ['AmitBhalotia', '2020-01-11 06:15:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:51', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 06:41:15', 'lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'], ['AmitBhalotia', '2020-01-11 06:42:29', 'dsdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:42:48', 'Test2222'], ['AmitBhalotia', '2020-01-11 07:13:08', 'dsdsdsdndnmnmndnndnnsdsd'], ['AmitBhalotia', '2020-01-11 07:18:05', 'love and love only'], ['AmitBhalotia', '2020-01-11 07:32:11', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:32:55', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:34:56', 'csdsdsd'], ['AmitBhalotia', '2020-01-11 07:35:43', 'dsdsd'], ['AmitBhalotia', '2020-01-11 07:37:04', 'sdsdsd'], ['AmitBhalotia', '2020-01-11 07:47:45', 'xsdsdsd'], ['AmitBhalotia', '2020-01-11 08:07:53', 'xsxsdsdsdsd'], ['AmitBhalotia', '2020-01-11 08:14:54', 'sssdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:50:06', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:52:54', 'jkjklklkkllklklkklkk'], ['AmitBhalotia', '2020-01-11 10:24:43', 'dsdslslllssdsd'], ['AmitBhalotia', '2020-01-11 11:21:34', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:23:49', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:51:26', '1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for \r\n  all the users.   --->  not needed\r\n2.What is the expiration time for the token.  ---->  2050\r\n3.Do we have to implement refresh token/access token ---> \r\n4.Where Do I branch out from (Dev or Master) --> Nooka\r\nbranch out from Dev'], ['AmitBhalotia', '2020-01-11 12:15:41', 'ddsdsdsdsdsd']]
+/home/spmuser/feedbackProj/django_feedback/media/feedback.xlsx
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W002) Your URL pattern '/' [name='home'] has a route beginning with a '/'. Remove this slash as it is unnecessary. If this pattern is targeted in an include(), ensure the include() pattern has a trailing '/'.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+January 12, 2020 - 00:23:31
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (2_0.W001) Your URL pattern '^$' [name='home'] has a route that contains '(?P<', begins with a '^', or ends with a '$'. This was likely an oversight when migrating to django.urls.path().
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+January 12, 2020 - 00:24:54
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.

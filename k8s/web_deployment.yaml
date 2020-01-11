@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webdeployment
+spec:
+  replicas: 1
+  selector:
+     matchLabels:
+        component: feedback
+  template:
+     metadata:
+        labels:
+           component: feedback
+     spec:
+        containers:
+          - name: feedbackcontainer
+            image: kannan1985/feedback
+            ports:
+              - containerPort: 80
+
+
