@@ -55,6 +55,6 @@ class CommentListView(LoginRequiredMixin,ListView):
     def get_context_data(self, *, object_list=None, **kwargs):
         pk = self.request.user.pk
         context = super().get_context_data(**kwargs)
-        context['comments']=context['comments'].filter(manager__pk=1)
+        #context['comments']=context['comments'].filter(manager__pk=1)
         print(context)
         return context

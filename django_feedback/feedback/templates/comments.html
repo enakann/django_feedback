@@ -8,15 +8,28 @@
         </a>
             </div>
 
+
+ <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Date</th>
+      <th scope="col">comment</th>
+    </tr>
+  </thead>
+  <tbody>
+
 {%  for comment in comments  %}
- <article class="media content-section">
-      <div class="media-body">
-        <div class="article-metadata">
-          <a class="mr-2" href="#">{{ comment.manager.name }}</a>
-          <small class="text-muted">{{ comment.date_posted | date:"F d,Y"}}</small>
-        </div>
-        <p class="article-content">{{ comment.comment }}</p>
-      </div>
-    </article>
-{% endfor %}
+    <tr>
+      <td class="counterCell"></td>
+      <td>{{ comment.manager.name }}</td>
+      <td class="col-md-2">{{ comment.date_posted | date:'Y-m-d H:i'}}</td>
+      <td>{{ comment.comment }}</td>
+    </tr>
+     {% endfor %}
+  </tbody>
+
+</table>
+
 {% endblock %}
