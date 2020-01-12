@@ -19,7 +19,7 @@ import xlsxwriter
 def download(request):
     pk=request.user.pk
     path=os.path.join(settings.MEDIA_ROOT,"feedback.xlsx")
-    ls = Employee.objects.filter(manager__pk=1).order_by('pk')
+    ls = Employee.objects.all().order_by('manager')
     workbook = xlsxwriter.Workbook(path)
     worksheet = workbook.add_worksheet()
     array=[["Manager_name","Date_posted","Comment"]]
@@ -45,12 +45,20 @@ class CommentCreateView(SuccessMessageMixin,CreateView):
     model=Employee
     template_name='comment_form.html'
     success_message = "Feedback submitted successfully"
+    
+    def get_context_data(self, *, object_list=None, **kwargs):
+        #ls=Employee.objects.values('manager__name').annotate(count=Count('manager'))
+        total=Employee.objects.count()
+        context = super().get_context_data(**kwargs)
+        context['total']=total
+        return context
 
 
 class CommentListView(LoginRequiredMixin,ListView):
     context_object_name = 'comments'
-    model = Employee
+    #model = Employee
     template_name = 'comments.html'
+    queryset=Employee.objects.all().order_by('manager')
 
     def get_context_data(self, *, object_list=None, **kwargs):
         pk = self.request.user.pk

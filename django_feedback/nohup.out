@@ -47,3 +47,374 @@ January 12, 2020 - 00:24:54
 Django version 2.1, using settings 'CBV.settings'
 Starting development server at http://0.0.0.0:8000/
 Quit the server with CONTROL-C.
+[12/Jan/2020 02:26:49] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 02:26:49] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:26:49] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:26:49] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:26:49] "GET /static/js/main.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:22] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 02:27:23] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:23] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:27:23] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:24] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 02:27:25] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[12/Jan/2020 02:27:26] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:26] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:26] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:27:31] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 02:27:32] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:32] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:27:32] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:35] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 02:27:36] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[12/Jan/2020 02:27:37] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:37] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:37] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:27:38] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 02:27:39] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[12/Jan/2020 02:27:39] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:27:39] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:39] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:40] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 02:27:41] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:41] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:41] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:27:55] "POST /feedback/ HTTP/1.1" 302 0
+[12/Jan/2020 02:27:56] "GET /feedback/ HTTP/1.1" 200 4463
+[12/Jan/2020 02:27:56] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:56] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:27:56] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:28:09] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 02:28:10] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:10] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:10] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:28:17] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 02:28:18] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[12/Jan/2020 02:28:18] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:18] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:18] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:28:28] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 02:28:29] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:28:29] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:29] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:32] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 02:28:33] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:33] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:33] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:28:35] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 02:28:35] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[12/Jan/2020 02:28:36] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:36] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:36] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 02:28:38] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 02:28:38] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:38] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 02:28:38] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 15:10:54] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 15:10:54] "GET /static/images/netapp.png HTTP/1.1" 304 0
+[12/Jan/2020 15:10:55] "GET /static/jquery/jquery.slim.min.js HTTP/1.1" 304 0
+[12/Jan/2020 15:10:55] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[12/Jan/2020 15:10:55] "GET /static/js/main.js HTTP/1.1" 304 0
+[12/Jan/2020 15:10:56] "GET /feedback/ HTTP/1.1" 200 4326
+[12/Jan/2020 15:10:58] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 15:10:58] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4205
+[12/Jan/2020 15:11:08] "POST /feedback/login/?next=/feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 15:11:08] "GET /feedback/list/ HTTP/1.1" 200 11667
+[12/Jan/2020 15:11:15] "GET /feedback/download/ HTTP/1.1" 200 6149
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 12, 2020 - 00:25:42
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Test>, <Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: ccxcxcxc>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: dsdsdsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: kkkkkkkkkkkkkkkkkkkkkkkkk>, <Employee: xsxsdsdsdsd>, '...(remaining elements truncated)...']>, 'comments': <QuerySet [<Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: xsxsdsdsdsd>, <Employee: sssdsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: jkjklklkkllklklkklkk>, <Employee: dsdslslllssdsd>, '...(remaining elements truncated)...']>, 'view': <feedback.views.CommentListView object at 0x7fc618456e48>}
+[['Manager_name', 'Date_posted', 'Comment'], ['AmitBhalotia', '2020-01-11 06:03:00', 'Test'], ['AmitBhalotia', '2020-01-11 06:15:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:51', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 06:41:15', 'lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'], ['AmitBhalotia', '2020-01-11 06:42:29', 'dsdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:42:48', 'Test2222'], ['AmitBhalotia', '2020-01-11 07:13:08', 'dsdsdsdndnmnmndnndnnsdsd'], ['AmitBhalotia', '2020-01-11 07:18:05', 'love and love only'], ['AmitBhalotia', '2020-01-11 07:32:11', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:32:55', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:34:56', 'csdsdsd'], ['AmitBhalotia', '2020-01-11 07:35:43', 'dsdsd'], ['AmitBhalotia', '2020-01-11 07:37:04', 'sdsdsd'], ['AmitBhalotia', '2020-01-11 07:47:45', 'xsdsdsd'], ['AmitBhalotia', '2020-01-11 08:07:53', 'xsxsdsdsdsd'], ['AmitBhalotia', '2020-01-11 08:14:54', 'sssdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:50:06', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:52:54', 'jkjklklkkllklklkklkk'], ['AmitBhalotia', '2020-01-11 10:24:43', 'dsdslslllssdsd'], ['AmitBhalotia', '2020-01-11 11:21:34', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:23:49', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:51:26', '1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for \r\n  all the users.   --->  not needed\r\n2.What is the expiration time for the token.  ---->  2050\r\n3.Do we have to implement refresh token/access token ---> \r\n4.Where Do I branch out from (Dev or Master) --> Nooka\r\nbranch out from Dev'], ['AmitBhalotia', '2020-01-11 12:15:41', 'ddsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 20:57:55', 'xxxxxxxxxxxxxxxxx']]
+/home/spmuser/feedbackProj/django_feedback/media/feedback.xlsx
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 12, 2020 - 16:54:15
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[12/Jan/2020 16:55:03] "GET /feedback/ HTTP/1.1" 200 4717
+[12/Jan/2020 16:55:04] "GET /static/js/main.js HTTP/1.1" 304 0
+[12/Jan/2020 16:55:14] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 16:55:14] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4594
+[12/Jan/2020 16:55:21] "POST /feedback/login/?next=/feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 16:55:22] "GET /feedback/list/ HTTP/1.1" 200 9751
+[12/Jan/2020 16:55:29] "GET /feedback/download/ HTTP/1.1" 200 6148
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 12, 2020 - 16:54:59
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Test>, <Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: ccxcxcxc>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: dsdsdsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: kkkkkkkkkkkkkkkkkkkkkkkkk>, <Employee: xsxsdsdsdsd>, '...(remaining elements truncated)...']>, 'comments': <QuerySet [<Employee: Test>, <Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: ccxcxcxc>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: dsdsdsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: kkkkkkkkkkkkkkkkkkkkkkkkk>, <Employee: xsxsdsdsdsd>, '...(remaining elements truncated)...']>, 'view': <feedback.views.CommentListView object at 0x7f74e4f3d518>}
+[['Manager_name', 'Date_posted', 'Comment'], ['AmitBhalotia', '2020-01-11 06:03:00', 'Test'], ['AmitBhalotia', '2020-01-11 06:15:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:51', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 06:41:15', 'lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'], ['AmitBhalotia', '2020-01-11 06:42:29', 'dsdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:42:48', 'Test2222'], ['AmitBhalotia', '2020-01-11 07:13:08', 'dsdsdsdndnmnmndnndnnsdsd'], ['AmitBhalotia', '2020-01-11 07:18:05', 'love and love only'], ['AmitBhalotia', '2020-01-11 07:32:11', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:32:55', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:34:56', 'csdsdsd'], ['AmitBhalotia', '2020-01-11 07:35:43', 'dsdsd'], ['AmitBhalotia', '2020-01-11 07:37:04', 'sdsdsd'], ['AmitBhalotia', '2020-01-11 07:47:45', 'xsdsdsd'], ['AmitBhalotia', '2020-01-11 08:07:53', 'xsxsdsdsdsd'], ['AmitBhalotia', '2020-01-11 08:14:54', 'sssdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:50:06', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:52:54', 'jkjklklkkllklklkklkk'], ['AmitBhalotia', '2020-01-11 10:24:43', 'dsdslslllssdsd'], ['AmitBhalotia', '2020-01-11 11:21:34', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:23:49', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:51:26', '1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for \r\n  all the users.   --->  not needed\r\n2.What is the expiration time for the token.  ---->  2050\r\n3.Do we have to implement refresh token/access token ---> \r\n4.Where Do I branch out from (Dev or Master) --> Nooka\r\nbranch out from Dev'], ['AmitBhalotia', '2020-01-11 12:15:41', 'ddsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 20:57:55', 'xxxxxxxxxxxxxxxxx']]
+/home/spmuser/feedbackProj/django_feedback/media/feedback.xlsx
+[12/Jan/2020 16:56:32] "GET /feedback/list/ HTTP/1.1" 200 9751
+[12/Jan/2020 16:56:35] "GET /feedback/download/ HTTP/1.1" 200 6336
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 12, 2020 - 16:56:27
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Test>, <Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: ccxcxcxc>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: dsdsdsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: kkkkkkkkkkkkkkkkkkkkkkkkk>, <Employee: xsxsdsdsdsd>, '...(remaining elements truncated)...']>, 'comments': <QuerySet [<Employee: Test>, <Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: ccxcxcxc>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: dsdsdsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: kkkkkkkkkkkkkkkkkkkkkkkkk>, <Employee: xsxsdsdsdsd>, '...(remaining elements truncated)...']>, 'view': <feedback.views.CommentListView object at 0x7fb59275dd30>}
+[['Manager_name', 'Date_posted', 'Comment'], ['AmitBhalotia', '2020-01-11 06:03:00', 'Test'], ['VaniNaik', '2020-01-11 06:03:22', 'Test'], ['AmitBhalotia', '2020-01-11 06:15:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:51', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 06:41:15', 'lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'], ['VaniNaik', '2020-01-11 06:41:42', 'ccxcxcxc'], ['AmitBhalotia', '2020-01-11 06:42:29', 'dsdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:42:48', 'Test2222'], ['AmitBhalotia', '2020-01-11 07:13:08', 'dsdsdsdndnmnmndnndnnsdsd'], ['VaniNaik', '2020-01-11 07:17:47', 'dsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:18:05', 'love and love only'], ['AmitBhalotia', '2020-01-11 07:32:11', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:32:55', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:34:56', 'csdsdsd'], ['AmitBhalotia', '2020-01-11 07:35:43', 'dsdsd'], ['AmitBhalotia', '2020-01-11 07:37:04', 'sdsdsd'], ['AmitBhalotia', '2020-01-11 07:47:45', 'xsdsdsd'], ['VaniNaik', '2020-01-11 08:01:59', 'kkkkkkkkkkkkkkkkkkkkkkkkk'], ['AmitBhalotia', '2020-01-11 08:07:53', 'xsxsdsdsdsd'], ['AmitBhalotia', '2020-01-11 08:14:54', 'sssdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:50:06', 'dsdsdsdsdsd'], ['VaniNaik', '2020-01-11 09:52:24', 'jjjjjj'], ['AmitBhalotia', '2020-01-11 09:52:54', 'jkjklklkkllklklkklkk'], ['AmitBhalotia', '2020-01-11 10:24:43', 'dsdslslllssdsd'], ['VaniNaik', '2020-01-11 11:20:41', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:21:34', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:23:49', 'dsdsdsd'], ['VaniNaik', '2020-01-11 11:26:36', 'sadsdsd'], ['AmitBhalotia', '2020-01-11 11:51:26', '1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for \r\n  all the users.   --->  not needed\r\n2.What is the expiration time for the token.  ---->  2050\r\n3.Do we have to implement refresh token/access token ---> \r\n4.Where Do I branch out from (Dev or Master) --> Nooka\r\nbranch out from Dev'], ['AmitBhalotia', '2020-01-11 12:15:41', 'ddsdsdsdsdsd'], ['VaniNaik', '2020-01-11 12:37:44', 'fsffsdsdsd'], ['AmitBhalotia', '2020-01-11 20:57:55', 'xxxxxxxxxxxxxxxxx']]
+/home/spmuser/feedbackProj/django_feedback/media/feedback.xlsx
+[12/Jan/2020 16:57:07] "GET /feedback/list/ HTTP/1.1" 200 9751
+[12/Jan/2020 16:57:09] "GET /feedback/download/ HTTP/1.1" 200 6338
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 12, 2020 - 16:57:03
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Test>, <Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: ccxcxcxc>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: dsdsdsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: kkkkkkkkkkkkkkkkkkkkkkkkk>, <Employee: xsxsdsdsdsd>, '...(remaining elements truncated)...']>, 'comments': <QuerySet [<Employee: Test>, <Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: ccxcxcxc>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: dsdsdsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: kkkkkkkkkkkkkkkkkkkkkkkkk>, <Employee: xsxsdsdsdsd>, '...(remaining elements truncated)...']>, 'view': <feedback.views.CommentListView object at 0x7f0529339d30>}
+[['Manager_name', 'Date_posted', 'Comment'], ['AmitBhalotia', '2020-01-11 06:03:00', 'Test'], ['AmitBhalotia', '2020-01-11 06:15:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:42', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:17:51', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 06:41:15', 'lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'], ['AmitBhalotia', '2020-01-11 06:42:29', 'dsdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 06:42:48', 'Test2222'], ['AmitBhalotia', '2020-01-11 07:13:08', 'dsdsdsdndnmnmndnndnnsdsd'], ['AmitBhalotia', '2020-01-11 07:18:05', 'love and love only'], ['AmitBhalotia', '2020-01-11 07:32:11', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:32:55', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 07:34:56', 'csdsdsd'], ['AmitBhalotia', '2020-01-11 07:35:43', 'dsdsd'], ['AmitBhalotia', '2020-01-11 07:37:04', 'sdsdsd'], ['AmitBhalotia', '2020-01-11 07:47:45', 'xsdsdsd'], ['AmitBhalotia', '2020-01-11 08:07:53', 'xsxsdsdsdsd'], ['AmitBhalotia', '2020-01-11 08:14:54', 'sssdsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:50:06', 'dsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 09:52:54', 'jkjklklkkllklklkklkk'], ['AmitBhalotia', '2020-01-11 10:24:43', 'dsdslslllssdsd'], ['AmitBhalotia', '2020-01-11 11:21:34', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:23:49', 'dsdsdsd'], ['AmitBhalotia', '2020-01-11 11:51:26', '1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for \r\n  all the users.   --->  not needed\r\n2.What is the expiration time for the token.  ---->  2050\r\n3.Do we have to implement refresh token/access token ---> \r\n4.Where Do I branch out from (Dev or Master) --> Nooka\r\nbranch out from Dev'], ['AmitBhalotia', '2020-01-11 12:15:41', 'ddsdsdsdsdsd'], ['AmitBhalotia', '2020-01-11 20:57:55', 'xxxxxxxxxxxxxxxxx'], ['VaniNaik', '2020-01-11 06:03:22', 'Test'], ['VaniNaik', '2020-01-11 06:41:42', 'ccxcxcxc'], ['VaniNaik', '2020-01-11 07:17:47', 'dsdsdsdsd'], ['VaniNaik', '2020-01-11 08:01:59', 'kkkkkkkkkkkkkkkkkkkkkkkkk'], ['VaniNaik', '2020-01-11 09:52:24', 'jjjjjj'], ['VaniNaik', '2020-01-11 11:20:41', 'dsdsdsd'], ['VaniNaik', '2020-01-11 11:26:36', 'sadsdsd'], ['VaniNaik', '2020-01-11 12:37:44', 'fsffsdsdsd']]
+/home/spmuser/feedbackProj/django_feedback/media/feedback.xlsx
+[12/Jan/2020 17:00:18] "GET /feedback/list/ HTTP/1.1" 200 9751
+[12/Jan/2020 17:00:35] "GET /feedback/ HTTP/1.1" 200 4717
+[12/Jan/2020 17:14:50] "GET /feedback/ HTTP/1.1" 200 4717
+[12/Jan/2020 17:17:25] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:17:45] "POST /feedback/ HTTP/1.1" 302 0
+[12/Jan/2020 17:17:45] "GET /feedback/ HTTP/1.1" 200 4853
+[12/Jan/2020 17:17:52] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:19:12] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:19:14] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 17:19:15] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4594
+[12/Jan/2020 17:19:17] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:19:39] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:19:40] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 17:19:41] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4594
+[12/Jan/2020 17:19:43] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:20:20] "GET /feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 17:20:20] "GET /feedback/login/?next=/feedback/list/ HTTP/1.1" 200 4594
+[12/Jan/2020 17:20:26] "POST /feedback/login/?next=/feedback/list/ HTTP/1.1" 302 0
+[12/Jan/2020 17:20:27] "GET /feedback/list/ HTTP/1.1" 200 4128
+[12/Jan/2020 17:20:45] "GET /feedback/download HTTP/1.1" 301 0
+[12/Jan/2020 17:20:57] "GET /feedback/download/ HTTP/1.1" 302 0
+[12/Jan/2020 17:20:58] "GET /feedback/login/?next=/feedback/download/ HTTP/1.1" 200 4594
+[12/Jan/2020 17:22:05] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:22:22] "POST /feedback/ HTTP/1.1" 302 0
+[12/Jan/2020 17:22:22] "GET /feedback/ HTTP/1.1" 200 4853
+[12/Jan/2020 17:22:25] "GET /feedback/list/ HTTP/1.1" 200 4635
+[12/Jan/2020 17:24:44] "GET /feedback/list/ HTTP/1.1" 200 4658
+[12/Jan/2020 17:24:48] "GET /feedback/list/ HTTP/1.1" 200 4658
+[12/Jan/2020 17:25:08] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:25:10] "GET /feedback/list/ HTTP/1.1" 200 4658
+[12/Jan/2020 17:25:13] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:25:17] "GET /feedback/list/ HTTP/1.1" 200 4658
+[12/Jan/2020 17:25:40] "GET /feedback/list/ HTTP/1.1" 200 4658
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 12, 2020 - 17:00:13
+Django version 2.1, using settings 'CBV.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: xsxsdsdsdsd>, <Employee: sssdsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: jkjklklkkllklklkklkk>, <Employee: dsdslslllssdsd>, '...(remaining elements truncated)...']>, 'comments': <QuerySet [<Employee: Test>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsd>, <Employee: lldlsllslxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>, <Employee: dsdsdsdsdsdsd>, <Employee: Test2222>, <Employee: dsdsdsdndnmnmndnndnnsdsd>, <Employee: love and love only>, <Employee: dsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: csdsdsd>, <Employee: dsdsd>, <Employee: sdsdsd>, <Employee: xsdsdsd>, <Employee: xsxsdsdsdsd>, <Employee: sssdsdsdsdsdsd>, <Employee: dsdsdsdsdsd>, <Employee: jkjklklkkllklklkklkk>, <Employee: dsdslslllssdsd>, '...(remaining elements truncated)...']>, 'view': <feedback.views.CommentListView object at 0x7faed1848ef0>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>]>, 'comments': <QuerySet [<Employee: Its a test feedback>]>, 'view': <feedback.views.CommentListView object at 0x7faecbd89ba8>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faed1848278>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbd89588>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbd75630>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbd89f98>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbfcddd8>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faed0051e48>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbd89c88>}[12/Jan/2020 17:25:43] "GET /feedback/list/ HTTP/1.1" 200 4658
+[12/Jan/2020 17:26:03] "GET /feedback/list/ HTTP/1.1" 200 4692
+[12/Jan/2020 17:26:06] "GET /feedback/list/ HTTP/1.1" 200 4692
+[12/Jan/2020 17:27:17] "GET /feedback/list/ HTTP/1.1" 200 4692
+[12/Jan/2020 17:31:18] "GET /feedback/list/ HTTP/1.1" 200 4658
+[12/Jan/2020 17:32:12] "GET /feedback/list/ HTTP/1.1" 200 4692
+[12/Jan/2020 17:32:48] "GET /feedback/list/ HTTP/1.1" 200 4700
+[12/Jan/2020 17:33:05] "GET /feedback/list/ HTTP/1.1" 200 4696
+[12/Jan/2020 17:33:08] "GET /feedback/list/ HTTP/1.1" 200 4696
+
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbfd7898>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbfd7240>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbfed898>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbd75518>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faed0016b00>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbfed908>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbda2438>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbd7c2e8>}
+{'paginator': None, 'page_obj': None, 'is_paginated': False, 'object_list': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'comments': <QuerySet [<Employee: Its a test feedback>, <Employee: 1.Do we produce different tokens for different groups of users(e.g internal, External) or single tokens for 
+  all the users.   --->  not needed
+2.What is the expiration time for the token.  ---->  2050
+3.Do we have to implement refresh token/access token ---> 
+4.Where Do I branch out from (Dev or Master) --> Nooka
+branch out from Dev>]>, 'view': <feedback.views.CommentListView object at 0x7faecbd75f60>}[12/Jan/2020 17:33:17] "GET /feedback/list/ HTTP/1.1" 200 4696
+[12/Jan/2020 17:33:19] "GET /feedback/list/ HTTP/1.1" 200 4696
+[12/Jan/2020 17:33:54] "GET /feedback/list/ HTTP/1.1" 200 4696
+[12/Jan/2020 17:34:19] "GET /feedback/list/ HTTP/1.1" 200 4696
+[12/Jan/2020 17:34:30] "GET /feedback/list/ HTTP/1.1" 200 4698
+[12/Jan/2020 17:36:14] "GET /feedback/list/ HTTP/1.1" 200 4698
+[12/Jan/2020 17:36:32] "GET /feedback/list/ HTTP/1.1" 200 4698
+[12/Jan/2020 17:36:39] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:37:02] "GET /feedback/list/ HTTP/1.1" 200 4698
+[12/Jan/2020 17:38:07] "GET /feedback/list/ HTTP/1.1" 200 3978
+[12/Jan/2020 17:38:13] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:39:47] "GET /feedback/ HTTP/1.1" 200 4716
+[12/Jan/2020 17:39:49] "GET /feedback/list/ HTTP/1.1" 200 3978

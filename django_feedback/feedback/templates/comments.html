@@ -2,13 +2,13 @@
 {% extends 'feedback_base.html' %}
 
 {% block body %}
-        <div align="right">
+        <div align="left">
          <a href="{% url 'feedback:download' %}" class="btn btn-info btn-lg">
           <span class="glyphicon glyphicon-download-alt"></span> Download
         </a>
             </div>
 
-
+<div class="float-left">
  <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -24,8 +24,8 @@
     <tr>
       <td class="counterCell"></td>
       <td>{{ comment.manager.name }}</td>
-      <td class="col-md-2">{{ comment.date_posted | date:'Y-m-d H:i'}}</td>
-      <td>{{ comment.comment }}</td>
+      <td style="width:40px">{{ comment.date_posted | date:'Y/m/d H:i'}}</td>
+      <td class="col-lg-20">{{ comment.comment }}</td>
     </tr>
      {% endfor %}
   </tbody>
